@@ -1,5 +1,15 @@
 # blog
 
+Agregar nuevo post
+======
+
+1. Agregar file.md en content/post
+2. Ejecutar el script de prueba.sh
+
+---
+
+###Others
+
 Go Hugo:
 
 1.- Instalar Hugo.
