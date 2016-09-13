@@ -1,5 +1,5 @@
 +++
-title= "Lectura de correo con Apache Camel + Groovy"
+title= "Lectura de correo con Apache Camel y Groovy"
 date="2014-08-26 18:29:26 -0500"
 author= "Jorge Acosta Lemus"
 comments= "true"
