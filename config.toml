@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://blog.makingdevs.com/"
 languageCode = "en-us"
 title = "Blog de Making Devs"
 theme="hugo-geo"
@@ -9,8 +9,6 @@ disqusShortname = "http-localhost-1313"
 [permalinks]
 post = ":year/:month/:day/:title"
 
-
-
 [params]
     showglobe = true
 
@@ -18,7 +16,7 @@ post = ":year/:month/:day/:title"
 
     github = "https://github.com/makingdevs"
     twitter = "https://twitter.com/makingdevs"
-    email = "makingdevs@makingdevs.com"
+    email = "info@makingdevs.com"
 
     subtitle = "El código que a veces olvidamos documentar."
 
