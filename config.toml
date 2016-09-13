@@ -12,7 +12,7 @@ post = ":year/:month/:day/:title"
 [params]
     showglobe = true
 
-    profilepic = "profile.jpg"
+    profilepic = "profile.jpeg"
 
     github = "https://github.com/makingdevs"
     twitter = "https://twitter.com/makingdevs"
