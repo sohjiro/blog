@@ -4,7 +4,7 @@ title = "Blog de Making Devs"
 theme="hugo-geo"
 PygmentsStyle="emacs"
 paginate="4"
-disqusShortname = "http-localhost-1313"
+disqusShortname = "makingdevs"
 
 [permalinks]
 post = ":year/:month/:day/:title"
