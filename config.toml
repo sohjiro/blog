@@ -1,0 +1,29 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Blog de Making Devs"
+theme="hugo-geo"
+PygmentsStyle="emacs"
+paginate="4"
+disqusShortname = "http-localhost-1313"
+
+[permalinks]
+post = ":year/:month/:day/:title"
+
+
+
+[params]
+    showglobe = true
+
+    profilepic = "profile.jpg"
+
+    github = "https://github.com/makingdevs"
+    twitter = "https://twitter.com/makingdevs"
+    email = "makingdevs@makingdevs.com"
+
+    subtitle = "El código que a veces olvidamos documentar."
+
+    # Nav links below the profile picture
+ #  [[params.navlinks]]
+ #  name = "Bienvenidos"
+ #  url = "2015-04-29-bienvenido-a-makingdevs.md"
+
