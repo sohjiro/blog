@@ -1,5 +1,5 @@
 ---
-title: "phoenix bootstrap"
+title: "Add complete bootstrap to Phoenix"
 date: 2016-03-24 20:08:09 -0600
 comments: true
 published: true
