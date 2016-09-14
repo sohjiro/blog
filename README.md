@@ -41,4 +41,9 @@ Agregar nuevo post con deploy.sh
     5. cd public (contenido estático generado por hugo)
     6. Git status (en repositorio makingdevs.github.io<----host del blog)
 ---
-
+#Borrar un post publicado
+    Al borrar un post.md, y volver a correr Hugo, no reemplaza el contenido de la carpeta public.
+    Para borrar un post publicado en el blog, realizar lo siguiente:
+      1. Borrar contenido de la carpeta public (menos CNAME)
+      2. Asegurar haber borrado el post.md a borrar en content/post
+      3. Ejecutar hugo (esto volverá a rellenar la carpeta public)
