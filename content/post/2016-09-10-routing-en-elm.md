@@ -4,7 +4,7 @@ date: 2016-09-10 11:22:01 -0500
 author: Ariana Gothwski
 comments: true
 tags: [elm, routing, functional programming]
-draft = false
+draft : false
 categories: [ elm, development]
 ---
 
