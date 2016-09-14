@@ -1,0 +1,4 @@
+[submodule "themes/themes"]
+	path = themes/themes
+	url = git@github.com:carlogilmar/hugo-geo.git
+	branch = master
