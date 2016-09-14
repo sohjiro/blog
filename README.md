@@ -15,20 +15,22 @@ Agregar nuevo post con deploy.sh
 
 #Cabeceras del fichero Markdown
 
-1. +++
-2. title= "Bienvenido a MakingDevs"
-3. date="2014-07-29 00:21:37 -0500"
-4. author="José Juan Reyes Zuñiga"
-5. comments="true"
-6. +++
+```md
++++
+title= "Bienvenido a MakingDevs"
+date="2014-07-29 00:21:37 -0500"
+author="José Juan Reyes Zuñiga"
+comments="true"
++++
+```
 
 ---
 
 1. Colocar Gist
-  + {{<  gist user_github id_gist "title_gist"  >}}
+  + `{{<  gist user_github id_gist "title_gist"  >}}`
 
 1. Resaltado de código
-  + {{< highlight grails >}} A bunch of code here {{< /highlight >i}}
+  + `{{< highlight grails >}} A bunch of code here {{< /highlight >i}}`
 
 
 ---
