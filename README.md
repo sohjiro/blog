@@ -22,8 +22,7 @@ Agregar nuevo post con deploy.sh
 5. comments="true"
 6. +++
 
-1. Colocar Imagen
-    +  ! [ descripcion de una imagen  ](  ../source/imagen.img   )
+---
 
 1. Colocar Gist
   + {{<  gist user_github id_gist "title_gist"  >}}
@@ -31,7 +30,6 @@ Agregar nuevo post con deploy.sh
 1. Resaltado de código
   + {{< highlight grails >}} A bunch of code here {{< /highlight >i}}
 
-      Usando librería
 
 ---
 
