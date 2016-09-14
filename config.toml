@@ -1,7 +1,7 @@
 baseurl = "http://blog.makingdevs.com/"
 languageCode = "en-us"
 title = "Blog de Making Devs"
-theme="hugo-geo"
+theme="themes"
 PygmentsStyle="emacs"
 paginate="4"
 disqusShortname = "makingdevs"
