@@ -6,7 +6,10 @@ Agregar nuevo post con deploy.sh
 #Instalar GoHugo
        "brew install hugo"
 
-## Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
+# Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
+---
+
+# Pasos para añadir un nuevo post al blog de Making Devs
 
 1. Clonar el repositorio de "blog"
 2. Correr el script inicio.sh
