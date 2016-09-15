@@ -8,8 +8,11 @@ Agregar nuevo post con deploy.sh
 
 ## Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
 
-1. Agregar file.md en content/post
-2. Ejecutar el script de deploy.sh
+1. Clonar el repositorio de "blog"
+2. Correr el script inicio.sh
+3. Para visualizar en local "hugo serve --buildDrafts"
+4. Agregar file.md en content/post
+5. Ejecutar el script de deploy.sh
 
 ---
 
