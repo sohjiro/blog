@@ -6,7 +6,10 @@ Agregar nuevo post con deploy.sh
 #Instalar GoHugo
        "brew install hugo"
 
-# Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
+```
+Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
+```
+
 ---
 
 # Pasos para añadir un nuevo post al blog de Making Devs
@@ -14,8 +17,17 @@ Agregar nuevo post con deploy.sh
 1. Clonar el repositorio de "blog"
 2. Correr el script inicio.sh
 3. Para visualizar en local "hugo serve --buildDrafts"
-4. Agregar file.md en content/post
+4. Agregar/modificar file.md en content/post
 5. Ejecutar el script de deploy.sh
+
+---
+
+#Borrar un post publicado
+    Al borrar un post.md, y volver a correr Hugo, no reemplaza el contenido de la carpeta public.
+    Para borrar un post publicado en el blog, realizar lo siguiente:
+      1. Borrar contenido de la carpeta public (menos CNAME)
+      2. Asegurar haber borrado el post.md a borrar en content/post
+      3. Ejecutar hugo (esto volverá a rellenar la carpeta public)
 
 ---
 
@@ -49,9 +61,3 @@ comments="true"
     5. cd public (contenido estático generado por hugo)
     6. Git status (en repositorio makingdevs.github.io<----host del blog)
 ---
-#Borrar un post publicado
-    Al borrar un post.md, y volver a correr Hugo, no reemplaza el contenido de la carpeta public.
-    Para borrar un post publicado en el blog, realizar lo siguiente:
-      1. Borrar contenido de la carpeta public (menos CNAME)
-      2. Asegurar haber borrado el post.md a borrar en content/post
-      3. Ejecutar hugo (esto volverá a rellenar la carpeta public)
