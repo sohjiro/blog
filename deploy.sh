@@ -1,31 +1,24 @@
 #! /bin/bash
-echo "Estás en:"
-pwd
-echo "Asegurate de ejecutar este script en la carpeta principal del blog"
-echo "Añade un commit para actualizar el blog:::::::::::::::::::::::::::"
+
+echo "1.- Asegurate de ejecutar este script en la carpeta principal del blog"
+echo "2.- Añade un commit para actualizar el blog:::::::::::::::::::::::::::"
 read comm
-echo "Descripcion::::::::::::::::::::::::::::"$comm
-echo "Construyendo hugo con tu nuevo post"
-hugo
-echo "Sitio construido, :)-------------------------------------------->"
-echo "Actualizando en el repositorio de blog, git status del código fuente de hugo::::::::::::::::"
-git status
-echo "Continuamos?"
-read resp
 
-echo "OK Aplicando git add -A, git commit, y git push________________________"
+echo "3.- Construyendo hugo con tu nuevo post"
+rm -rf public/*
+hugo --buildDrafts
+echo "4.- Actualizando en el repositorio de blog, git status del código fuente de hugo::::::::::::::::"
+echo "5.- OK Aplicando git add -A, git commit, y git push-------------------------------------------------------"
 git add -A
 git commit -m "$comm"
-git push
-echo "Cambios arriba OK"
+git push origin master
+echo "6.- Repositorio Blog actualizado, chechar en GitHub.io los cambios"
 
-echo "Actualizando contenido estático del blog"
+echo "7.- Actualizando contenido estático del blog"
 cd public
-pwd
-git status
-echo "Continuamos?"
-read resp2
+echo "blog.makingdevs.com">>CNAME
 git add -A
 git commit -m "$comm"
-git push
-echo "Actualizado repositorio de makingdevs.github.io, revisa cambios."
+git push origin master
+echo "8.- Actualizado repositorio de makingdevs.github.io, revisa cambios en el blog ----------------------------"
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
