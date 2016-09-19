@@ -2,3 +2,7 @@
 	path = themes/themes
 	url = git@github.com:carlogilmar/hugo-geo.git
 	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:makingdevs/makingdevs.github.io.git
+	branch = master
