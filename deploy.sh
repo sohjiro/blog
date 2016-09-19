@@ -16,6 +16,7 @@ echo "6.- Repositorio Blog actualizado, chechar en GitHub.io los cambios"
 
 echo "7.- Actualizando contenido estático del blog"
 cd public
+git checkout master
 echo "blog.makingdevs.com">>CNAME
 git add -A
 git commit -m "$comm"
