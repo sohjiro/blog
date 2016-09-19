@@ -52,9 +52,9 @@ Ejecutar en la carpeta raíz y esto generará automáticamente las cabeceras:
 
 #Mini Tutorial de Hugo
 
-Para crear sitio:**hugo new site misitio**
-Para crear nuevo post: **hugo new post/mipost.md**
-Para ejecutar hugo y crear el contenido del sitio estático:**hugo --buildDrafts**
-Para abrir un servidor local y checar cambios:**hugo serve --buildDrafts**
+1. Para crear sitio:**hugo new site misitio**
+2. Para crear nuevo post: **hugo new post/mipost.md**
+3. Para ejecutar hugo y crear el contenido del sitio estático:**hugo --buildDrafts**
+4. Para abrir un servidor local y checar cambios:**hugo serve --buildDrafts**
 
 ---
