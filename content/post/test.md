@@ -6,7 +6,8 @@ draft = true
 highlight = true
 scripts = []
 tags = []
-title = "test"
+title = "test del Lunes :)"
 
 +++
+
 Esta es una prueba segunda del blog de MakingDevs.
