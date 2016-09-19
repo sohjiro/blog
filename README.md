@@ -12,13 +12,13 @@ Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
 
 ---
 
-# Pasos para añadir un nuevo post al blog de Making Devs
+# Pasos para actualizar el  blog de Making Devs
 
 1. Clonar el repositorio de "blog"
-2. Correr el script inicio.sh
-3. Para visualizar en local "hugo serve --buildDrafts"
-4. Agregar/modificar file.md en content/post
-5. Ejecutar el script de deploy.sh
+2. Ejecutar el script "inicio.sh"
+3. Para agregar un nuevo post ejecutar "agregar_post.sh" y modificar el fichero creado
+4. Ejecutar el script "deploy.sh" para actualizar los dos repositorios.
+5. Checar cambios en GitHub
 
 ---
 
@@ -31,15 +31,12 @@ Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
 
 ---
 
-#Cabeceras del fichero Markdown
+#Insertar un post
 
-```md
-+++
-title= "Bienvenido a MakingDevs"
-date="2014-07-29 00:21:37 -0500"
-author="José Juan Reyes Zuñiga"
-comments="true"
-+++
+Ejecutar en la carpeta raíz y esto generará automáticamente las cabeceras:
+
+```
+	hugo new post/mipost.md
 ```
 
 ---
@@ -53,11 +50,11 @@ comments="true"
 
 ---
 
-## El Script realiza lo siguiente:
-    1. Ejecuta "hugo"
-    2. Git status (en repositorio blog--código fuente de hugo)
-    3. Git add .
-    4. Git commit
-    5. cd public (contenido estático generado por hugo)
-    6. Git status (en repositorio makingdevs.github.io<----host del blog)
+#Mini Tutorial de Hugo
+
+Para crear sitio:**hugo new site misitio**
+Para crear nuevo post: **hugo new post/mipost.md**
+Para ejecutar hugo y crear el contenido del sitio estático:**hugo --buildDrafts**
+Para abrir un servidor local y checar cambios:**hugo serve --buildDrafts**
+
 ---
