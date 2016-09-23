@@ -1,6 +1,5 @@
 # blog
 
-Agregar nuevo post con deploy.sh
 ======
 
 #Instalar GoHugo
@@ -12,13 +11,29 @@ Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
 
 ---
 
-# Pasos para actualizar el  blog de Making Devs
+# Estructura del Proyecto
+
+El repositorio principal es *"blog"*, cuyo contenido es la estructura de un proyecto de Hugo
+Dentro:
+La carpeta *"themes/themes"* es un submodulo al fork del tema Hugo-Geo-. (master)
+La carpeta *"public"* es un submodulo al repositorio "makingdevs.github.io" que contiene el contenido estático generado por Hugo. (master)
+En *"content/post"* se hallan los archivos markdown de los post del blog.
+En *"static"* se encuentran las imágenes usadas en los post.
+El fichero *"config.toml"* es la configuración de Hugo.
+ 
+
+# Pasos para publicar en el  blog de Making Devs por vez primera:
 
 1. Clonar el repositorio de "blog"
-2. Ejecutar el script "inicio.sh"
-3. Para agregar un nuevo post ejecutar "agregar_post.sh" y modificar el fichero creado
-4. Ejecutar el script "deploy.sh" para actualizar los dos repositorios.
-5. Checar cambios en GitHub
+2. Ejecutar el script "inicio.sh" para bajar los archivos de los submódulos del tema y la carpeta public.
+3. Para agregar un nuevo post ejecutar "agregar_post.sh" y modificar el fichero creado.
+4. Ejecutar el script "deploy.sh" que actualizará el repositorio *blog*, ejecutará Hugo para generar el contenido en *public* y actualizará el repositorio *makingdevs.github.io* 
+5. Revisar los cambios en GitHub
+
+# Para actualizar el repositorio "blog"
+
+1. Ejecutar el script "update.sh"
+2. El script ejectura el servidor local, asegurarse que este actualizado
 
 ---
 
