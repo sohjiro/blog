@@ -13,13 +13,14 @@ Para resaltado de sintáxis se usa http://pygments.org/, se debe instalar
 
 # Estructura del Proyecto
 
-El repositorio principal es *"blog"*, cuyo contenido es la estructura de un proyecto de Hugo
-Dentro:
-La carpeta *"themes/themes"* es un submodulo al fork del tema Hugo-Geo-. (master)
-La carpeta *"public"* es un submodulo al repositorio "makingdevs.github.io" que contiene el contenido estático generado por Hugo. (master)
-En *"content/post"* se hallan los archivos markdown de los post del blog.
-En *"static"* se encuentran las imágenes usadas en los post.
-El fichero *"config.toml"* es la configuración de Hugo.
++ El repositorio principal es *"blog"*, cuyo contenido es la estructura de un proyecto de Hugo
+
++ Dentro:
++ La carpeta *"themes/themes"* es un submodulo al fork del tema Hugo-Geo-. (master)
++ La carpeta *"public"* es un submodulo al repositorio "makingdevs.github.io" que contiene el contenido estático generado por  Hugo. (master)
++ En *"content/post"* se hallan los archivos markdown de los post del blog.
++ En *"static"* se encuentran las imágenes usadas en los post.
++ El fichero *"config.toml"* es la configuración de Hugo.
  
 
 # Pasos para publicar en el  blog de Making Devs por vez primera:
