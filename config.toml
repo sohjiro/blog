@@ -5,6 +5,8 @@ theme="themes"
 PygmentsStyle="emacs"
 paginate="4"
 disqusShortname = "makingdevs"
+googleAnalytics = "UA-42842883-2"
+
 
 [permalinks]
 post = ":year/:month/:day/:title"
