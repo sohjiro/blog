@@ -3,6 +3,8 @@ echo "Bajando el tema"
 git submodule init
 git submodule update
 echo "Tema incluido::::::::::"
-echo "Listo para agregar"
+cd public
+echo "En carpeta public abrir archivo index.html"
+git checkout master
+echo "Sitio descargado en LOCAL-----------------------"
 
-hugo serve --buildDrafts
