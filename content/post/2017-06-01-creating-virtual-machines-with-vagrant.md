@@ -1,6 +1,6 @@
 +++
 date = "2017-06-01T15:28:00-05:00"
-author: Felipe Juarez
+author = "Felipe Juarez"
 title = "Creating virtual machines with Vagrant"
 comments = "true"
 
@@ -17,7 +17,7 @@ First of all, we're going to install _Vagrant_ and _Virtual Box_. We'll download
 Vagrant 1.9.3
 {{< /highlight >}}
 
-We can download _Virtual Box_ from this [link](https://www.virtualbox.org). This step is required because _Vagrant_ use images for running in a virtual machine. You can configure _Vagrant_ to be use with other providers, but that is out of this scope.
+We can download _Virtual Box_ from this [link](https://www.virtualbox.org). This step is required because _Vagrant_ use images for running in a virtual machine. You can configure _Vagrant_ to be used with other providers, but that is out of this scope.
 
 After that is finished, we can start with our first command which is `vagrant init`. Once that you run the command you will see a message like this
 
