@@ -1,6 +1,7 @@
 +++
 css = []
 date = "2017-06-18T10:13:05-05:00"
+author = "Felipe Juarez"
 description = ""
 highlight = true
 scripts = []
