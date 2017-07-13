@@ -6,7 +6,7 @@ draft = true
 highlight = true
 scripts = []
 tags = []
-title = "Page Title"
+title = "Building a release with distillery"
 
 +++
 
